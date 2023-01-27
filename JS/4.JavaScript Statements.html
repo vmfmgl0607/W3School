@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>JavaScript Statements</h2>
+
+    <p>A <b>JavaScript program</b> is a list of <b>Statements</b>to be executed by a computer</p>
+
+    <p id="demo1"></p>
+
+    <script>
+        let x, y, z;
+        x = 5;
+        y = 6;
+        z = x+y;
+
+        document.getElementById("demo1").innerHTML = "The value of z is" + z + ".";
+    </script>
+
+    <p>In Html, JavaScript Statements are executed by the browser.</p>
+    <p id="demo"></p>
+
+    <script>
+        document.getElementById("demo").innerHTML = "Hello Dolly.";
+    </script>
+
+    <p>JavaScript Statements are separated by semicolons.</p>
+    <p id="demo2"></p>
+
+    <script>
+        let a, b, c;
+        a = 5;
+        b = 6;
+        c = a + b;
+        document.getElementById("demo2").innerHTML = c;
+    </script>
+
+    <p>Multiple Statements on one line are allowed.</p>
+
+    <p id="demo3"></p>
+
+    <script>
+        let e, d, f;
+        e = 5; d = 6; f = e + d;
+        document.getElementById("demo3").innerHTML = f;
+    </script>
+
+    <p>The best place to break a code line is after an operator or a comma</p>
+
+    <p id="demo4"></p>
+
+    <script>
+        document.getElementById("demo4").innerHTML = "Hello Dolly!";
+    </script>
+
+    <p>JavaScript code blocks are written between { and }</p>
+
+    <button type="button" onclick="myFunc()">Click me</button>
+
+    <p id="demo5"></p>
+    <p id="demo6"></p>
+
+    <script>
+        function myFunc() {
+            document.getElementById("demo5").innerHTML = "Hello Dolly!";
+            document.getElementById("demo6").innerHTML = "How are u?";
+        }
+    </script>
+
+</body>
+</html>

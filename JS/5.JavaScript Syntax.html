@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h2>JS Numbers</h2>
+
+    <p>Number can be written with or without decimals.</p>
+
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+
+    <script>
+        document.getElementById("demo1").innerHTML = 10.50;
+        document.getElementById("demo2").innerHTML = 1001;
+    </script>
+
+    <p>String can be written with double or single quotes.</p>
+
+    <p id="demo3"></p>
+    <p id="demo4"></p>
+
+
+    <script>
+        document.getElementById("demo3").innerHTML ="John Doe";
+        document.getElementById("demo4").innerHTML = "Lucas P"
+    </script>
+
+    <p>In this example, x is defined as a variable. Then, x is assigned the value of 6:</p>
+
+    <p id="demo5"></p>
+    <script>
+        let x;
+        x = 6;
+        document.getElementById("demo5").innerHTML = x;
+    </script>
+
+    <p>Js uses arithmetic operators to compute values(just like algebra)</p>
+    <p id="demo6"></p>
+
+    <script>
+        document.getElementById("demo6").innerHTML = ( 5 + 6) * 10;
+    </script>
+
+    <p>In JS the = operators is used to assign values to variables.</p>
+
+    <p id="demo7"></p>
+
+    <script>
+        let y, z;
+        z = 5;
+        y = 6;
+        document.getElementById("demo7").innerHTML = x + y;
+    </script>
+
+    <p>Js Expressions compute to values.</p>
+
+    <p id="demo8"></p>
+
+    <script>
+        document.getElementById("demo8").innerHTML = 5 * 10;
+    </script>
+
+    <p>Expressions compute to values</p>
+
+    <p id="demo9"></p>
+
+    <script>
+        var a;
+        a = 5;
+        document.getElementById("demo9").innerHTML = a * 10;
+    </script>
+
+    <p>Expressions compute to values.</p>
+
+    <p id="demo10"></p>
+
+    <script>
+        document.getElementById("demo10").innerHTML = "John" + " " +"Doe";
+    </script>
+
+    <h2>The let keyword creates variables</h2>
+
+    <p id="demo11"></p>
+
+    <script>
+        let b, c;
+        b = 5 + 6;
+        c = b * 10;
+        document.getElementById("demo11").innerHTML = c;
+    </script>
+
+    <p id="demo12"></p>
+    <script>
+        var d, e;
+        d = 5 + 6;
+        e = d * 10;
+        document.getElementById("demo12").innerHTML = e;
+    </script>
+
+    <h2>Js comments are not executed</h2>
+
+    <p id="demo13"></p>
+
+    <script>
+        let f;
+        f = 5;
+        // f = 6;
+        document.getElementById("demo13").innerHTML = f;
+    </script>
+
+    <h2>Js is case sensitive</h2>
+
+    <p>Try to change lastname to lastname</p>
+
+    <p id="demo14"></p>
+
+    <script>
+        let lastname, lastName;
+        lastName = "Doe";
+        lastname = "Peterson"
+        document.getElementById("demo14").innerHTML = lastName;
+    </script>
+
+</body>
+</html>

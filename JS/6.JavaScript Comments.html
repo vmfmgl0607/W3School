@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="demo0"></h1>
+    <p id="demo1"></p>
+
+    <script>
+        // change heading
+        document.getElementById("demo0").innerHTML = "Javascript comments";
+        document.getElementById("demo1").innerHTML = "My first paragraph"
+    </script>
+
+    <h2>Javascript comments</h2>
+
+    <p id="demo2"></p>
+
+    <script>
+        let x = 5; //declare x, give it the value of 5
+        let y = x + 2; // declare y, give ot the value of x + 2
+
+        document.getElementById("demo2").innerHTML = y;
+    </script>
+
+    <h1 id="demo3"></h1>
+    <p id="demo4"></p>
+
+    <script>
+        /* the code below will change the heading with id = "demo3" and the paragraph with id ="demo4" */
+        document.getElementById("demo3").innerHTML = "Javascript comments."
+        document.getElementById("demo4").innerHTML = "My first paragraph"
+    </script>
+
+    <hr>
+
+    <h1 id="demo5"></h1>
+    <p id="demo6"></p>
+    
+    <script>
+        /* the code below will change the heading with id = "demo3" and the paragraph with id ="demo4" */
+       // document.getElementById("demo5").innerHTML = "Javascript comments."
+        document.getElementById("demo6").innerHTML = "My first paragraph"
+    </script>
+
+    <h1 id="demo7"></h1>
+    <p id="demo8"></p>
+    
+    <script>
+        /* the code below will change the heading with id = "demo3" and the paragraph with id ="demo4" */
+        /*document.getElementById("demo3").innerHTML = "Javascript comments."
+        document.getElementById("demo4").innerHTML = "My first paragraph"*/
+        document.getElementById("demo8").innerHTML = "The comment-block is not executed";
+    </script>
+
+</body>
+</html>
